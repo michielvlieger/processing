@@ -11,19 +11,19 @@ void render() {
   for (int x=0; x<width; x++) {
     for (int y=0; y<height; y++) {
       int grains = sandpiles[x][y];
-      color col = color(255, 0, 0);
+      color col = color(219, 51, 64);
       switch(grains) {
       case 0:
-        col = color(255, 255, 0);
+        col = color(247, 234, 200);
         break;
       case 1:
-        col = color(0, 185, 63);
+        col = color(232, 184, 26);
         break;
       case 2:
-        col = color(0, 104, 255);
+        col = color(32,218,155);
         break;
       case 3:
-        col = color(122, 0, 229);
+        col = color(40,171,227);
         break;
       }
       pixels[x+y*width]=col;

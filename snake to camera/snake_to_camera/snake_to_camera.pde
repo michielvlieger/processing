@@ -24,8 +24,6 @@ void draw() {
   background(background);
   fill(cube);
   stroke(255);
-  //rotateY(mouseY*0.005);
-  //rotateX(mouseX*0.005);
   for (int x=0; x<grid.length; x++) {
     for (int y=0; y<grid[x].length; y++) {
       for (int z=0; z<grid[x][y].length; z++) {
